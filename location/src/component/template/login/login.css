@@ -1,0 +1,99 @@
+/* Conteneur principal */
+.loginTemplate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Conteneur pour l'image et le formulaire */
+.loginContent {
+  display: flex;
+  align-items: stretch; 
+  width: 80%;
+  max-width: 800px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+/* Style de l'image */
+.loginImage {
+  flex: 1;
+  margin-right: 20px; 
+}
+
+.loginImage img {
+  width: 105%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* Style du formulaire */
+.loginForm {
+  flex: 1;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  box-shadow: none; 
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style du titre */
+.loginForm h1 {
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+}
+
+/* Style des champs de formulaire */
+.loginForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style du bouton */
+.loginForm button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 13px;
+  margin-top: 20px;
+}
+
+.loginForm button:hover {
+  background-color: #333;
+}
+/* Style du lien */
+.forgotPassword {
+  color: black; 
+  text-decoration: underline; 
+  cursor: pointer; 
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+/* Style du lien au survol */
+.forgotPassword:hover {
+  color: #333; 
+}
+.register {
+  
+  text-align: center;
+}
+
+/* Style du lien de création de compte */
+.register-link {
+  color: black; 
+  text-decoration: underline; 
+  cursor: pointer; /* Curseur pointeur au survol */
+  
+}

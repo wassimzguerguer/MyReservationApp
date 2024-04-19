@@ -1,0 +1,14 @@
+.login-forgot-password {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 16px;
+    text-align: right;
+  }
+  .register-link{
+    color: #72c9da;
+    font-weight: 400;
+}

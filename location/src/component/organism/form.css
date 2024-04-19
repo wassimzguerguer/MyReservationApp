@@ -1,0 +1,40 @@
+/* Stylisation du formulaire dans son ensemble */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Assure que les enfants prennent toute la largeur disponible */
+    gap: 15px; /* Espacement entre chaque élément du formulaire */
+    padding: 50px; /* Espace autour du contenu du formulaire */
+    background-color: #ffffff; /* Couleur de fond du formulaire */
+     /* Bords arrondis du formulaire */
+     /* Ombre légère pour donner du relief */
+  }
+  .form label {
+    font-weight: bold; 
+    color: black;
+    /* Police en gras pour les labels */
+  }
+  
+  
+  /* Stylisation spécifique aux InputLabels si nécessaire */
+  /* Exemple : vous pourriez vouloir styliser différemment le deuxième InputLabel */
+
+    /* Styles spécifiques aux erreurs dans les InputLabels, si nécessaire */
+  
+  
+  /* Stylisation du bouton */
+  .form button {
+    padding: 10px 15px; /* Ajustement du padding pour le bouton */
+    font-size: 16px; /* Taille de la police pour le texte du bouton */
+    color: white; /* Couleur du texte */
+    background-color: rgb(145, 12, 138); /* Couleur de fond du bouton */
+    border: none; /* Suppression de la bordure du bouton */
+    border-radius: 4px; /* Bords arrondis du bouton */
+    cursor: pointer; /* Change le curseur en main lorsque survolé */
+    transition: background-color 0.3s ease; /* Transition douce pour le survol */
+  }
+  
+  .form button:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+  }
+  

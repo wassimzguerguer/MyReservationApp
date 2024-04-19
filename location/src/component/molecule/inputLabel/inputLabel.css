@@ -1,0 +1,28 @@
+.form-groupe {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Ajustez l'espacement selon vos besoins */
+  }
+  
+  /* Styliser le Label */
+  .form-groupe > label {
+    margin-bottom: 5px;
+    color: #333; /* Couleur du texte du label */
+    font-size: 16px; /* Taille du texte du label */
+  }
+  
+  /* Styliser l'Input */
+  .form-groupe > input {
+    padding: 8px 12px;
+    border: 1px solid #ccc; /* Bordure de l'input */
+    border-radius: 4px; /* Bords arrondis pour l'input */
+    font-size: 14px; /* Taille du texte dans l'input */
+  }
+  
+  /* Styliser le message d'erreur */
+  .InputMolecule-error {
+    color: #d32f2f; /* Couleur du texte du message d'erreur */
+    font-size: 12px; /* Taille du texte du message d'erreur */
+    margin-top: 5px; /* Espacement entre l'input et le message d'erreur */
+  }
+  

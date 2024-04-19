@@ -1,0 +1,44 @@
+.login-frame-header {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .login-textbox-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 40px 0px 15px 0px;
+  }
+
+  .register  {
+    padding-top: 40px;
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.h4 {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+
